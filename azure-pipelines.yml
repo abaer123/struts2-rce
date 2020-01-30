@@ -19,8 +19,10 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-  - task: NexusIqPipelineTask@1
+- task: NexusIqPipelineTask@1
   inputs:
     nexusIqService: 'iq_server'
     applicationId: 'struts2-rce'
     stage: 'Build'
+
+
