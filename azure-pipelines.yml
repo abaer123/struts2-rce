@@ -36,4 +36,3 @@ steps:
     applicationId: 'struts2-rce'
     stage: 'Build'
 
-
