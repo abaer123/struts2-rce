@@ -32,7 +32,8 @@ steps:
 
 - task: NexusIqPipelineTask@1
   inputs:
-    nexusIqService: 'iq_server'
+    nexusIqService: 'iq_server3'
     applicationId: 'struts2-rce'
     stage: 'Build'
+
 
