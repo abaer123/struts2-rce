@@ -30,8 +30,14 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
 
+#- task: NexusIqPipelineTask@1
+ # inputs:
+ #   nexusIqService: 'iq_server'
+ #   applicationId: 'struts2-rce'
+ #   stage: 'Build'
+
 - task: NexusIqPipelineTask@1
   inputs:
-    nexusIqService: 'iq_server'
+    nexusIqService: 'iq_server_tokens'
     applicationId: 'struts2-rce'
     stage: 'Build'
