@@ -36,7 +36,12 @@ steps:
  #   applicationId: 'struts2-rce'
  #   stage: 'Build'
 
+#- task: NexusIqPipelineTask@1
 - task: NexusIqPipelineTask@1
+  inputs:
+    nexusIqService: 'abaer-artie-iq'
+    applicationId: 'abaer-struts2'
+    stage: 'Build'
   inputs:
     nexusIqService: 'iq_server_tokens'
     applicationId: 'struts2-rce'
