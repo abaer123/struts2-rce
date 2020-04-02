@@ -42,7 +42,7 @@ steps:
     nexusIqService: 'abaer-artie-iq'
     applicationId: 'abaer-struts2'
     stage: 'Build'
-  inputs:
-    nexusIqService: 'iq_server_tokens'
-    applicationId: 'struts2-rce'
-    stage: 'Build'
+  #inputs:
+   # nexusIqService: 'iq_server_tokens'
+   # applicationId: 'struts2-rce'
+   # stage: 'Build'
