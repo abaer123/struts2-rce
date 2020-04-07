@@ -29,4 +29,10 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
+    
+    - task: NexusIqPipelineTask@1
+      inputs:
+        nexusIqService: 'iq_server'
+        applicationId: 'struts2-rce'
+        stage: 'Build'
 
