@@ -30,8 +30,3 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
 
-- task: NexusIqPipelineTask@1
-  inputs:
-    nexusIqService: 'abaer-artie-iq'
-    applicationId: 'abaer-struts2'
-    stage: 'Build'
