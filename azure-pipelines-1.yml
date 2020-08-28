@@ -24,7 +24,7 @@ steps:
 
 - task: NexusIqPipelineTask@1
   inputs:
-    nexusIqService: 'iq-server'
+    nexusIqService: 'abaer-aws'
     applicationId: 'struts2-rce'
     stage: 'Build'
 
