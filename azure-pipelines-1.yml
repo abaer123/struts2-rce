@@ -29,7 +29,10 @@ steps:
     stage: 'Build'
 
 
-
+- task: SonatypeCloudPipelineTask@0
+  inputs:
+    SonatypeCloudService: 'Sonatype Cloud Extension'
+    stage: 'Build'
 
 
 
