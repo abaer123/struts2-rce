@@ -30,9 +30,9 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
     
-    - task: NexusIqPipelineTask@1
-      inputs:
-        nexusIqService: 'abaer-aws'
-        applicationId: 'struts2-rce'
-        stage: 'Build'
+- task: NexusIqPipelineTask@1
+  inputs:
+      nexusIqService: 'abaer-aws'
+      applicationId: 'struts2-rce'
+      stage: 'Build'
 
